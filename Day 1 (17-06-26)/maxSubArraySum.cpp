@@ -26,8 +26,8 @@ public:
 int main()
 {
 
-    int arr[] = {-2, -4};
-    int n = 2;
+    int arr[] = {1,2,-15,3,4,-36, 9};
+    int n = 7;
     Solution result;
     cout << result.maxSubArraySum(arr, n);
     return 0;
