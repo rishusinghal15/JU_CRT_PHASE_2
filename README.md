@@ -32,6 +32,7 @@ Each folder contains the solutions practiced on that particular day.
 * Hashing
 * Binary Search
 * Recursion
+* Sorting
 * Linked Lists
 * Stacks & Queues
 * Trees
