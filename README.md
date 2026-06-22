@@ -22,7 +22,7 @@ JU_CRT_PHASE_2
 └── README.md
 ```
 
-Each folder contains the solutions practiced on that particular day.
+Each folder contains the solutions to the questions practiced on that particular day.
 
 ## Topics Covered
 
