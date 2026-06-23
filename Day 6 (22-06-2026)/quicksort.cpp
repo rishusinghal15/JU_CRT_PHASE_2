@@ -1,17 +1,20 @@
-#include <iostream>
+#include <bits/stdc++.h>
 using namespace std;
 
 int partition(int arr[], int st, int end)
 {
     int pivotElement = arr[st];
     int count = 0;
-    for(int i=st;i<=end;i++)
+    for(int i=st+1;i<=end;i++)
     {
         if(arr[i] <= pivotElement)
         count++;
     }
 
     int pivotIndex = st+count;
+    int temp = arr[pivotIndex];
+    arr[pivotIndex] = arr[st];
+    arr[st] = temp;
 
     int i=st, j = end;
     while(i<pivotIndex && j>pivotIndex)
