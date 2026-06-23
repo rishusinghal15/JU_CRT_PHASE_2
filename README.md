@@ -1,4 +1,4 @@
-# JU CRT Phase 2 - DSA Problem 
+# JU CRT Phase 2 - DSA Problem Solving
 
 This repository contains my day-wise Data Structures and Algorithms (DSA) practice solutions implemented in C++ as part of my preparation for the Campus Recruitment Training (CRT) Problem Solving Phase 2.
 
