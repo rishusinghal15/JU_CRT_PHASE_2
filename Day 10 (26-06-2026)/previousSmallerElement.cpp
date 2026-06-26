@@ -1,3 +1,8 @@
+#include<iostream>
+#include<vector>
+#include<stack>
+using namespace std; 
+
 class Solution {
 	public:
 	vector<int> prevSmaller(vector<int>& arr) {
@@ -17,3 +22,22 @@ class Solution {
 		return ans;
 	}
 };
+
+int main() {
+    Solution obj;
+
+    vector<int> arr = {4, 5, 2, 10, 8};
+    vector<int> ans = obj.prevSmaller(arr);
+
+    cout << "Array: ";
+    for (int x : arr)
+        cout << x << " ";
+
+    cout << "\nPrevious Smaller Elements: ";
+    for (int x : ans)
+        cout << x << " ";
+
+    cout << endl;
+
+    return 0;
+}

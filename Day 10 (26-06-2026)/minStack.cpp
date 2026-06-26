@@ -1,3 +1,8 @@
+#include<iostream>
+#include<stack> 
+#include<vector>
+using namespace std; 
+
 class MinStack {
 public:
     stack<int> st1; // all elements insert
@@ -50,3 +55,32 @@ public:
  * int param_3 = obj->top();
  * int param_4 = obj->getMin();
  */
+
+ int main() {
+    MinStack st;
+
+    st.push(5);
+    st.push(3);
+    st.push(7);
+    st.push(2);
+
+    cout << "Top Element: " << st.top() << endl;
+    cout << "Minimum Element: " << st.getMin() << endl;
+
+    st.pop();
+    cout << "\nAfter one pop:" << endl;
+    cout << "Top Element: " << st.top() << endl;
+    cout << "Minimum Element: " << st.getMin() << endl;
+
+    st.pop();
+    cout << "\nAfter another pop:" << endl;
+    cout << "Top Element: " << st.top() << endl;
+    cout << "Minimum Element: " << st.getMin() << endl;
+
+    st.push(1);
+    cout << "\nAfter pushing 1:" << endl;
+    cout << "Top Element: " << st.top() << endl;
+    cout << "Minimum Element: " << st.getMin() << endl;
+
+    return 0;
+}
