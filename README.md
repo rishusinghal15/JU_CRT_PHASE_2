@@ -42,7 +42,7 @@ Each folder contains the solutions to the problems practiced on that particular 
 * Heaps
 * Graphs
 * Dynamic Programming
-* Greedy Algorithms
+* Greedy Algorithm
 * Backtracking
 * Bit Manipulation
 
