@@ -6,8 +6,8 @@ This repository contains my day-wise **Data Structures and Algorithms (DSA)** pr
 
 * Strengthen problem-solving skills through consistent practice.
 * Build a strong foundation in Data Structures and Algorithms.
-* Improve coding efficiency, logical thinking, and analytical skills.
-* Prepare for coding assessments, technical interviews, and competitive programming.
+* Improve coding efficiency, logical thinking and analytical skills.
+* Prepare for coding assessments, technical interviews and competitive programming.
 
 ## Repository Structure
 
